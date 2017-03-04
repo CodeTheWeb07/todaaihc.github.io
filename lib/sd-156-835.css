@@ -1,0 +1,287 @@
+body {
+    font-family: 'Open Sans', sans-serif, Verdana;
+}
+a {
+    font-size: 35px;
+    text-decoration: none !important;
+    transition:background-color , color .2s cubic-bezier(0.4, 0, 1, 1);
+    border: 0px;
+    padding: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #006699;
+}
+a:link {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+a:hover {
+    color: #21A2F3;
+    background-color: #fff;
+    border-bottom-color: #21a2f3
+}
+a:active {
+    color: #3a9bf4;
+    background-color: #fff;
+}
+.presentCSS {
+    background-color: #fff;
+    color: #3a9bf4 !important;
+    border-bottom-color: #21a2f3
+}
+.contactAboutNav:hover {
+    background-color: #fff;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #006699;
+    padding: 13px;
+}
+.contents {
+    display: inline;
+}
+.navigationBar {
+    font-size: 35px;
+    animation: fromabove 1s ease-out;
+    -webkit-animation: fromabove 1s ease-out;
+}
+.header {
+    background-color: #aaa;
+    padding: 0px;
+    padding-top: 40px;
+    text-align: center !important;
+    border: 0px;
+    margin: 0px
+}
+.introslide {
+    font-size: 40px;
+    font-weight: 100;
+    animation: fromright 1s ease-out;
+    -webkit-animation: fromright 1s ease-out;
+}
+.sd-1076-02 {
+    background-color: #1371BB;
+    color: #fff;
+    font-size: 38px;
+    width: 17%;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.58);
+}
+.sd-1074-27 {
+    background-color: #1E90FF;
+}
+.contacts {
+    color: #fff;
+    background-color: #1a2930;
+    font-size: 36px;
+    list-style-type: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.myAddress {
+    margin-left: 40px;
+    font-size: 28px;
+    padding: 10px;
+    padding-right: 0px;
+    padding-left: 20px;
+    background-color: #03a9f4;
+    color: #fff;
+    position: relative
+}
+.info , .whatsappContactInfo {
+    background-color: #1E90FF;
+    font-size: 28px;
+    margin-left: 40px;
+    color: #fff;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 0px;
+}
+.whatsappContactInfo {
+    background-color: #03a9f4;
+}
+.serviceList {
+    list-style-type: decimal;
+}
+.qr-1076-10 {
+    margin: 0px;
+    margin-top: -30px;
+}
+.qr-1076-13 , .tk-1076-21 {
+    font-size: 38px;
+    color: #fff;
+    background-color: #ffc107;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 9px 18px rgba(58, 52, 52, 0.6);
+}
+.tk-1076-21 {
+    width: 18%;
+    background-color: #cddc39;
+}
+.yf-1820-12 {
+    font-size: 34px;
+    background-color: rgba(170, 170, 170, 0.58);
+    color: #3A81B7;
+    padding: 16px;
+    margin-top: 200px;
+    text-decoration: underline;
+}
+.sd-04 {
+    background-color: #303e45;
+    color: #fff;
+    font-size: 28px;
+    width: auto;
+    padding: 10px;
+    position: relative
+}
+.sd-06 {
+    background-color: #e2ba0f;
+    color: #fff;
+    font-size: 26px;
+    padding: 18px;
+    margin-left: 50px;
+    position: relative
+}
+.sd-hr {
+    border: solid #FF7F50;
+    width: 95%;
+    margin-right: 0px;
+}
+.tk-1076-23 {
+    text-align: left;
+    width: 31%;
+    margin-bottom: 40px;
+    padding: 12px;
+    border-style: solid;
+    border-color: #4caf50;
+}
+.tk-1076-25 {
+    padding: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(152, 251, 152, 0.35);
+}
+.sd_hr_int {
+    border: 1px solid #000;
+    width: 12%;
+    animation: increase .5s ease-out;
+    -webkit-animation: increase .5s ease-out;
+    position: relative;
+    display: none;
+    margin: 0px
+}
+.fontchange {
+    font-family: 'Product Sans', sans-serif, Verdana !important;
+}
+.scrolled {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0px;
+    animation: fromabove 1s ease-out;
+    -webkit-animation: fromabove 1s ease-out;
+    opacity: 0.5;
+    transition: .4s ease-out opacity;
+}
+.scrolled:hover {
+    opacity: 1
+}
+.anibod {
+    position: relative
+}
+.sd_btn {
+    border:none;
+    display:inline-block;
+    outline:0 !important;
+    padding:6px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none!important;
+    color:#fff;
+    background-color:#000;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    width: 100%;
+    font-size: 30px
+}
+.map_bod {
+    width: 82%;
+    cursor: pointer
+}
+.map_main {
+    cursor:auto;
+    position:relative;
+    width:100%;
+    margin:0;
+    padding:0;
+    color: #333 !important;
+}
+.sociallinks {
+    border: 0px;
+    background-color: inherit;
+    color: #fff;
+    font-size: 40px;
+    padding: 0px 8px !important;
+    border-radius: 6px
+}
+.linkedin {
+    background-color: #1985bc;
+}
+.facebook {
+    background-color: #4867aa;
+}
+.googlep {
+    background-color: #dc5144;
+}
+.twitter {
+    background-color: #1da1f2;
+}
+.linkedin:hover {
+    color: #1985bc !important;
+    background-color: #fff
+}
+.facebook:hover {
+    color: #4867aa !important;
+    background-color: #fff
+}
+.googlep:hover {
+    color: #dc5144 !important;
+    background-color: #fff
+}
+.twitter:hover {
+    color: #1da1f2 !important;
+    background-color: #fff
+}
+.socialmedia {
+    text-align: center;
+    padding: 30px;
+}
+.page-footer {
+    position: relative;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #616967;
+    text-align: center
+}
+.connect {
+    font-size: 20px
+}
+
+@keyframes fromright{from{opacity: 0;margin-left: -300px}to{opacity: 1; margin-left: 0px}}
+@-webkit-keyframes fromright{from{opacity: 0;margin-left: -300px}to{opacity: 1; margin-left: 0px}}
+@keyframes fromabove{from{opacity: 0.2;margin-top: -300px}to{opacity: 1;margin-top: 0px}}
+@-webkit-keyframes fromabove{from{opacity: 0.2;margin-top: -300px}to{opacity: 1;margin-top: 0px}}
+@keyframes increase{from{width: 0%}to{width: 12%}}
+@-webkit-keyframes increase{from{width: 0%}to{width: 12%}}
