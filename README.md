@@ -1,2 +1,2 @@
-# todaaihc.github.io
+# todaaihc.io
 Todaaihc's official website
