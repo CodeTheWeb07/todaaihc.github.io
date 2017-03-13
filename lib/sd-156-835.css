@@ -82,6 +82,7 @@ a:active {
     list-style-type: none;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-bottom: 1px;
 }
 .myAddress {
     margin-left: 40px;
@@ -91,7 +92,8 @@ a:active {
     padding-left: 20px;
     background-color: #03a9f4;
     color: #fff;
-    position: relative
+    position: relative;
+    margin-bottom: 1px;
 }
 .info , .whatsappContactInfo {
     background-color: #1E90FF;
@@ -101,6 +103,7 @@ a:active {
     padding: 10px;
     padding-left: 60px;
     padding-right: 0px;
+    margin-bottom: 1px;
 }
 .whatsappContactInfo {
     background-color: #03a9f4;
